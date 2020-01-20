@@ -1,27 +1,41 @@
 # Ahorcado
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
+El juego del ahorcado, simple.
+Creado con HTML5, CSS3 y JavaScript mediante Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Vistas dentro del juego
 
-## Code scaffolding
+### Solicitud de palabra
+ ![Index](vista/inicio.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Juego
+ ![Juego](vista/juego.jpg)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Victoria
+ ![Win](vista/victoria.jpg)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Derrota
+ ![Lose](vista/derrota.jpg)
+ 
+ 
+## Uso:
+Despues de descargar el repositorio, a traves de la linea de comando ejecutar el siguiente script:
 
-## Running end-to-end tests
+**npm install**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+y luego:
 
-## Further help
+**ng serve** 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+o
+
+**ng serve -o**
+
+
+# **IMPORTANTE**
+Tiene algunas cosas a mejorar, por ejemplo:
+- Los espacios no los reconoce, ahora que lo estoy subiendo me doy cuenta. Mas adelante lo corregire.
+- Al terminar el juego, lo ideal, seria que recargue, despues de un lapso, la página para empezar otro juego.
